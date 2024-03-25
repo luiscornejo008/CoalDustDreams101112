@@ -19,3 +19,7 @@ We are still trying to figure out  our game; importing/adding assets does not wo
 We still need to figure out the whole scope of the again as well as actually getting down to business.
 
 (unitys cheeks) -ryan
+______________________
+3/22/24. 1:37pm
+
+We still have nothing done, no backgrounds or assets put in. 
