@@ -23,3 +23,11 @@ ______________________
 3/22/24. 1:37pm
 
 We still have nothing done, no backgrounds or assets put in. 
+______________________
+3/25/24, 1:33pm
+
+Looking for character move scripts, world is being built (finally)
+______________________
+3/26/24, 1:11pm
+
+I finally figured out how to move a 2D character, using a very rough move script. The character can only move left and right, and does not have any animations whatsoever. It's a start though. Just wanted to write this down because w 
