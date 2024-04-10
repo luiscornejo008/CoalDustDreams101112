@@ -14,6 +14,9 @@ public class Move : MonoBehaviour
     public float jumpHeight = 6.5f;
     public float gravityScale = 1.5f;
     public Camera mainCamera;
+    public GameObject pickaxe;
+    public int score;
+    
 
     bool facingRight = true;
     float moveDirection = 0;
@@ -33,18 +36,27 @@ public class Move : MonoBehaviour
         r2d.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
         r2d.gravityScale = gravityScale;
         facingRight = t.localScale.x > 0;
-
+        
         if (mainCamera)
         {
             cameraPos = mainCamera.transform.position;
         }
     }
-
+    public void addScore(int s)
+    {
+        score = score + s;
+    }
+    public int returnScore()
+    {
+        return score;
+    }
     // Update is called once per frame
     void Update()
     {
+        //pickaxe equip/unequip
         
-        
+
+
         // Movement controls
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
         {
