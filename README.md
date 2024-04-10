@@ -30,10 +30,14 @@ Looking for character move scripts, world is being built (finally)
 ______________________
 3/26/24, 1:11pm
 
-I finally figured out how to move a 2D character, using a very rough move script. The character can only move left and right, and does not have any animations whatsoever. It's a start though. Just wanted to write this down because w
+I finally figured out how to move a 2D character, using a very rough move script. The character can only move left and right and does not have any animations whatsoever. It's a start though. Just wanted to write this down because w
 _____________________
 3/27/24, 1:40pm
 
 We found a really good cave asset, only problem is that there are over 900 separate tiles to implement into the tile palette, which is pretty time-consuming. I got some of the most important part's that we'll need into the palette early though.
 ____________________
-e
+e -ryan
+____________________
+4/4/24, 1:01pm
+
+New CharacterMove script works well, thanks Felix 👍
