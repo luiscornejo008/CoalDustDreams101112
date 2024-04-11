@@ -16,7 +16,7 @@ public class Move : MonoBehaviour
     public Camera mainCamera;
     public GameObject pickaxe;
     public int score;
-    
+    public int health;
 
     bool facingRight = true;
     float moveDirection = 0;
@@ -25,10 +25,22 @@ public class Move : MonoBehaviour
     Rigidbody2D r2d;
     CapsuleCollider2D mainCollider;
     Transform t;
+    public void getMoney(int money)
+    {
+        score = score + money;
+        Debug.Log("you have : $" + score);
+    }
+    public void getHit()
+    {
+        health = health - 1;
+        Debug.Log("health is at " + health + "/10");
+    }
 
     // Use this for initialization
     void Start()
     {
+        score = 0;
+        health = 10;
         t = transform;
         r2d = GetComponent<Rigidbody2D>();
         mainCollider = GetComponent<CapsuleCollider2D>();
@@ -101,10 +113,10 @@ public class Move : MonoBehaviour
 
 
         // Camera follow
-        if (mainCamera)
-        {
-            mainCamera.transform.position = new Vector3(t.position.x, t.position.y, cameraPos.z);
-        }
+      //  if (mainCamera)
+     //   {
+     //       mainCamera.transform.position = new Vector3(t.position.x, t.position.y, cameraPos.z);
+      //  }
     }
 
     void FixedUpdate()

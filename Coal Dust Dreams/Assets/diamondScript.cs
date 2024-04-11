@@ -10,10 +10,12 @@ public class diamondScript : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D co)
     {
+
+        GameObject pick = GameObject.FindWithTag("Player");
         
-        Debug.Log("score is at " + " point");
-        if (co.name == "diamond")
+        if (co.name == "pickaxe")
         {
+            pick.GetComponent<Move>().getMoney(1);
             Destroy(gameObject);
         }
     }
