@@ -3,7 +3,7 @@ using System.Collections;
 
 public class diamondScript : MonoBehaviour
 {
-    
+    public AudioClip collectedClip;
     void Start()
     {
         
@@ -17,6 +17,7 @@ public class diamondScript : MonoBehaviour
         {
             pick.GetComponent<Move>().getMoney(1);
             Destroy(gameObject);
+
         }
     }
 }
