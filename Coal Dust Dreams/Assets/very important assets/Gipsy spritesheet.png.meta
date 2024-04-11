@@ -13,115 +13,115 @@ TextureImporter:
     second: Gipsy Idle 3
   - first:
       213: 4714842867781085322
-    second: GipsyIdle 4
+    second: Gipsy Idle 4
   - first:
       213: 2107975896989027689
-    second: GipsyIdle
+    second: Gipsy Idle 5
   - first:
       213: 5755773806251855061
-    second: Gipsy Talk 6
+    second: Gipsy Idle 6
   - first:
       213: 7806243681179755530
-    second: Gipsy Talk 7
+    second: Gipsy Idle 7
   - first:
       213: -3022343234062482076
-    second: Gipsy Talk 8
+    second: Gipsy Idle 8
   - first:
       213: 2903607188548023393
-    second: Gipsy Talk 9
+    second: Gipsy Idle 9
   - first:
       213: 1247636414376435613
-    second: Gipsy Talk 10
+    second: Gipsy Idle 10
   - first:
       213: -5331954358153032495
-    second: Gipsy Talk
+    second: Gipsy Talk 2
   - first:
       213: -2436830820212277786
-    second: Gipsy Talk
+    second: Gipsy Talk 2
   - first:
       213: 7811719924395233416
-    second: Gipsy Talk
+    second: Gipsy Talk 2
   - first:
       213: 1497846000675263857
-    second: Gipsy spritesheet_13
+    second: Gipsy Talk 4
   - first:
       213: -5468311687001317673
-    second: Gipsy spritesheet_14
+    second: Gipsy Talk 5
   - first:
       213: -2341864592598155235
-    second: Gipsy spritesheet_15
+    second: Gipsy Talk 6
   - first:
       213: -2064346004807259091
-    second: Gipsy spritesheet_16
+    second: Gipsy Money
   - first:
       213: -4975908753638522656
-    second: Gipsy spritesheet_17
+    second: Gipsy Money 2
   - first:
       213: -5651648399483772531
-    second: Gipsy spritesheet_18
+    second: Gipsy Money 3
   - first:
       213: 3192770030173158466
-    second: Gipsy spritesheet_19
+    second: Gipsy Money 4
   - first:
       213: -5591818175294804202
-    second: Gipsy spritesheet_20
+    second: Gipsy Money 5
   - first:
       213: 5822917100083374595
-    second: Gipsy spritesheet_21
+    second: Gipsy Money 6
   - first:
       213: -4404758081298506741
-    second: Gipsy spritesheet_22
+    second: Gipsy Money 7
   - first:
       213: -4502358576985476574
-    second: Gipsy spritesheet_23
+    second: Gipsy Money 8
   - first:
       213: -612936070732940538
-    second: Gipsy spritesheet_24
+    second: Gipsy Money 9
   - first:
       213: -7464952401346904438
-    second: Gipsy spritesheet_25
+    second: Gipsy Money 10
   - first:
       213: -1143365819818843609
-    second: Gipsy spritesheet_26
+    second: Gipsy ChestOpen
   - first:
       213: -8247115692640060757
-    second: Gipsy spritesheet_27
+    second: Gipsy ChestOpen 2
   - first:
       213: -514356540799131976
-    second: Gipsy spritesheet_28
+    second: Gipsy ChestOpen 3
   - first:
       213: 6435589637596178926
-    second: Gipsy spritesheet_29
+    second: Gipsy ChestOpen 4
   - first:
       213: -2951425019913118463
-    second: Gipsy spritesheet_30
+    second: Gipsy ChestOpen 5
   - first:
       213: 3805459072163270479
-    second: Gipsy spritesheet_31
+    second: Gipsy ChestOpen 6
   - first:
       213: 424525751237641066
-    second: Gipsy spritesheet_32
+    second: Gipsy ChestOpen 7
   - first:
       213: -6007074527282472342
-    second: Gipsy spritesheet_33
+    second: Gipsy ChestOpen 8
   - first:
       213: 1414906180594606780
-    second: Gipsy spritesheet_34
+    second: Gipsy TalkCO
   - first:
       213: -803961075416970060
-    second: Gipsy spritesheet_35
+    second: Gipsy TalkCO 2
   - first:
       213: 4190105401230184673
-    second: Gipsy spritesheet_36
+    second: Gipsy TalkCO 3
   - first:
       213: -3384016160640629850
-    second: Gipsy spritesheet_37
+    second: Gipsy TalkCO 4
   - first:
       213: 245166193788991461
-    second: Gipsy spritesheet_38
+    second: Gipsy TalkCO 5
   - first:
       213: 2584257309507070582
-    second: Gipsy spritesheet_39
+    second: Gipsy TalkCO 6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -162,7 +162,7 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 1
+  spriteExtrude: 2
   spriteMeshType: 0
   alignment: 9
   spritePivot: {x: 0.5, y: 0.5}
@@ -274,7 +274,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GipsyIdle 4
+      name: Gipsy Idle 4
       rect:
         serializedVersion: 2
         x: 240
@@ -295,7 +295,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GipsyIdle
+      name: Gipsy Idle 5
       rect:
         serializedVersion: 2
         x: 320
@@ -316,7 +316,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gipsy Talk 6
+      name: Gipsy Idle 6
       rect:
         serializedVersion: 2
         x: 400
@@ -337,7 +337,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gipsy Talk 7
+      name: Gipsy Idle 7
       rect:
         serializedVersion: 2
         x: 480
@@ -358,7 +358,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gipsy Talk 8
+      name: Gipsy Idle 8
       rect:
         serializedVersion: 2
         x: 560
@@ -379,7 +379,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gipsy Talk 9
+      name: Gipsy Idle 9
       rect:
         serializedVersion: 2
         x: 640
@@ -400,7 +400,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gipsy Talk 10
+      name: Gipsy Idle 10
       rect:
         serializedVersion: 2
         x: 720
@@ -442,7 +442,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gipsy Talk
+      name: Gipsy Talk 2
       rect:
         serializedVersion: 2
         x: 80
@@ -463,7 +463,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gipsy Talk
+      name: Gipsy Talk 3
       rect:
         serializedVersion: 2
         x: 160
@@ -484,7 +484,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gipsy spritesheet_13
+      name: Gipsy Talk 4
       rect:
         serializedVersion: 2
         x: 240
@@ -505,7 +505,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gipsy spritesheet_14
+      name: Gipsy Talk 5
       rect:
         serializedVersion: 2
         x: 320
@@ -526,7 +526,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gipsy spritesheet_15
+      name: Gipsy Talk 6
       rect:
         serializedVersion: 2
         x: 400
@@ -547,7 +547,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gipsy spritesheet_16
+      name: Gipsy Money
       rect:
         serializedVersion: 2
         x: 0
@@ -568,7 +568,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gipsy spritesheet_17
+      name: Gipsy Money 2
       rect:
         serializedVersion: 2
         x: 80
@@ -589,7 +589,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gipsy spritesheet_18
+      name: Gipsy Money 3
       rect:
         serializedVersion: 2
         x: 160
@@ -610,7 +610,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gipsy spritesheet_19
+      name: Gipsy Money 4
       rect:
         serializedVersion: 2
         x: 240
@@ -631,7 +631,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gipsy spritesheet_20
+      name: Gipsy Money 5
       rect:
         serializedVersion: 2
         x: 320
@@ -652,7 +652,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gipsy spritesheet_21
+      name: Gipsy Money 6
       rect:
         serializedVersion: 2
         x: 400
@@ -673,7 +673,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gipsy spritesheet_22
+      name: Gipsy Money 7
       rect:
         serializedVersion: 2
         x: 480
@@ -694,7 +694,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gipsy spritesheet_23
+      name: Gipsy Money 8
       rect:
         serializedVersion: 2
         x: 560
@@ -715,7 +715,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gipsy spritesheet_24
+      name: Gipsy Money 9
       rect:
         serializedVersion: 2
         x: 640
@@ -736,7 +736,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gipsy spritesheet_25
+      name: Gipsy Money 10
       rect:
         serializedVersion: 2
         x: 720
@@ -757,7 +757,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gipsy spritesheet_26
+      name: Gipsy ChestOpen
       rect:
         serializedVersion: 2
         x: 0
@@ -778,7 +778,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gipsy spritesheet_27
+      name: Gipsy ChestOpen 2
       rect:
         serializedVersion: 2
         x: 80
@@ -799,7 +799,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gipsy spritesheet_28
+      name: Gipsy ChestOpen 3
       rect:
         serializedVersion: 2
         x: 160
@@ -820,7 +820,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gipsy spritesheet_29
+      name: Gipsy ChestOpen 4
       rect:
         serializedVersion: 2
         x: 240
@@ -841,11 +841,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gipsy spritesheet_30
+      name: Gipsy ChestOpen 5
       rect:
         serializedVersion: 2
         x: 320
-        y: 80
+        y: 81
         width: 80
         height: 80
       alignment: 0
@@ -862,7 +862,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gipsy spritesheet_31
+      name: Gipsy ChestOpen 6
       rect:
         serializedVersion: 2
         x: 400
@@ -883,7 +883,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gipsy spritesheet_32
+      name: Gipsy ChestOpen 7
       rect:
         serializedVersion: 2
         x: 480
@@ -904,7 +904,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gipsy spritesheet_33
+      name: Gipsy ChestOpen 8
       rect:
         serializedVersion: 2
         x: 560
@@ -925,7 +925,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gipsy spritesheet_34
+      name: Gipsy TalkCO
       rect:
         serializedVersion: 2
         x: 0
@@ -946,7 +946,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gipsy spritesheet_35
+      name: Gipsy TalkCO 2
       rect:
         serializedVersion: 2
         x: 80
@@ -967,7 +967,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gipsy spritesheet_36
+      name: Gipsy TalkCO 3
       rect:
         serializedVersion: 2
         x: 160
@@ -988,7 +988,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gipsy spritesheet_37
+      name: Gipsy TalkCO 4
       rect:
         serializedVersion: 2
         x: 240
@@ -1009,7 +1009,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gipsy spritesheet_38
+      name: Gipsy TalkCO 5
       rect:
         serializedVersion: 2
         x: 320
@@ -1030,7 +1030,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gipsy spritesheet_39
+      name: Gipsy TalkCO 6
       rect:
         serializedVersion: 2
         x: 400
