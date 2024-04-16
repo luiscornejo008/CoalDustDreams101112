@@ -100,13 +100,10 @@ public class Move : MonoBehaviour
         // Jumping
         if(Input.GetKeyDown(KeyCode.LeftShift))
         {
-            if (Input.GetKeyDown(KeyCode.W) && isGrounded)
-            {
-                r2d.velocity = new Vector2(r2d.velocity.x, shiftJump);
-            }
+            r2d.velocity = new Vector2(r2d.velocity.x, shiftJump);
         }
 
-        if (Input.GetKeyDown(KeyCode.W) && isGrounded)
+        if (Input.GetKeyDown(KeyCode.W) && (isGrounded == true))
         {
             r2d.velocity = new Vector2(r2d.velocity.x, jumpHeight);
         }
