@@ -11,6 +11,7 @@ public class Move : MonoBehaviour
     public float maxSpeed = 3.4f;
     public float shiftSpeed = 5.4f;
     public float shiftJump = 20.4f;
+    public int superJump = 0;
     public float jumpHeight = 6.5f;
     public float gravityScale = 1.5f;
     public Camera mainCamera;
@@ -100,7 +101,11 @@ public class Move : MonoBehaviour
         // Jumping
         if(Input.GetKeyDown(KeyCode.LeftShift))
         {
-            r2d.velocity = new Vector2(r2d.velocity.x, shiftJump);
+            if(checkSuper() > 0)
+            {
+                r2d.velocity = new Vector2(r2d.velocity.x, shiftJump);
+                hasSuperd();
+            }
         }
 
         if (Input.GetKeyDown(KeyCode.W) && (isGrounded == true))
@@ -114,6 +119,20 @@ public class Move : MonoBehaviour
      //   {
      //       mainCamera.transform.position = new Vector3(t.position.x, t.position.y, cameraPos.z);
       //  }
+    }
+    public void getSuper()
+    {
+        superJump = superJump + 1;
+    }
+
+    public void hasSuperd()
+    {
+        superJump = superJump - 1;
+    }
+
+    public int checkSuper()
+    {
+        return superJump;
     }
 
     void FixedUpdate()
