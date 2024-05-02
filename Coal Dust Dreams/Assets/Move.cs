@@ -12,12 +12,14 @@ public class Move : MonoBehaviour
     public float shiftSpeed = 5.4f;
     public float shiftJump = 20.4f;
     public int superJump = 0;
+    public int health = 10;
     public float jumpHeight = 6.5f;
     public float gravityScale = 1.5f;
     public Camera mainCamera;
     public GameObject pickaxe;
     public int score;
-    public int health;
+    public GameObject dopey;
+    
 
     bool facingRight = true;
     float moveDirection = 0;
@@ -125,6 +127,8 @@ public class Move : MonoBehaviour
         superJump = superJump + 1;
     }
 
+    
+
     public void hasSuperd()
     {
         superJump = superJump - 1;
@@ -134,6 +138,18 @@ public class Move : MonoBehaviour
     {
         return superJump;
     }
+
+    public int checkHealth()
+    {
+        return health;
+    }
+
+    public void getHit(int num)
+    {
+        health = health - num;
+        Debug.Log("Health: " + checkHealth());
+    }
+
 
     void FixedUpdate()
     {
@@ -162,5 +178,10 @@ public class Move : MonoBehaviour
         // Simple debug
         Debug.DrawLine(groundCheckPos, groundCheckPos - new Vector3(0, colliderRadius, 0), isGrounded ? Color.green : Color.red);
         Debug.DrawLine(groundCheckPos, groundCheckPos - new Vector3(colliderRadius, 0, 0), isGrounded ? Color.green : Color.red);
+
+        if(checkHealth() < 1)
+        {
+            dopey.SetActive(false);
+        }
     }
 }
