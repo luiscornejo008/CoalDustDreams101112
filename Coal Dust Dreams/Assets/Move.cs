@@ -43,7 +43,7 @@ public class Move : MonoBehaviour
     void Start()
     {
         score = 0;
-        health = 10;
+        health = 5;
         t = transform;
         r2d = GetComponent<Rigidbody2D>();
         mainCollider = GetComponent<CapsuleCollider2D>();
