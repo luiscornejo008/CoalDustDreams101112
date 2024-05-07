@@ -2061,11 +2061,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1804224465 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5543737034213160678, guid: f87e03cf92ab1fb4d9d224dd32486e71, type: 3}
-  m_PrefabInstance: {fileID: 5543737032796516771}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1953515338 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5543737034213160681, guid: f87e03cf92ab1fb4d9d224dd32486e71, type: 3}
@@ -34374,14 +34369,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5543737034213160677, guid: f87e03cf92ab1fb4d9d224dd32486e71, type: 3}
-      propertyPath: dopey
-      value: 
-      objectReference: {fileID: 1804224465}
-    - target: {fileID: 5543737034213160677, guid: f87e03cf92ab1fb4d9d224dd32486e71, type: 3}
-      propertyPath: jumpHeight
-      value: 15
-      objectReference: {fileID: 0}
     - target: {fileID: 5543737034213160678, guid: f87e03cf92ab1fb4d9d224dd32486e71, type: 3}
       propertyPath: m_Name
       value: Dopey Joe

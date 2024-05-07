@@ -249,12 +249,14 @@ MonoBehaviour:
   maxSpeed: 12
   shiftSpeed: 5.4
   shiftJump: 20.4
-  jumpHeight: 12
+  superJump: 0
+  health: 0
+  jumpHeight: 15
   gravityScale: 1.5
   mainCamera: {fileID: 0}
   pickaxe: {fileID: 0}
   score: 0
-  health: 0
+  dopey: {fileID: 5543737034213160678}
 --- !u!82 &4081765219771183515
 AudioSource:
   m_ObjectHideFlags: 0
