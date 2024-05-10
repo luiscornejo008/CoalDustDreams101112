@@ -12,7 +12,7 @@ public class Move : MonoBehaviour
     public float shiftSpeed = 5.4f;
     public float shiftJump = 20.4f;
     public int superJump = 0;
-    public int health = 10;
+    public int health = 5;
     public float jumpHeight = 6.5f;
     public float gravityScale = 1.5f;
     public Camera mainCamera;
@@ -59,7 +59,7 @@ public class Move : MonoBehaviour
     void Start()
     {
         score = 0;
-        health = 10;
+        health = 5;
         t = transform;
         r2d = GetComponent<Rigidbody2D>();
         mainCollider = GetComponent<CapsuleCollider2D>();
