@@ -18,6 +18,9 @@ public class Move : MonoBehaviour
     public Camera mainCamera;
     public GameObject pickaxe;
     public int score;
+    public int diamonds;
+    public int gold;
+    public int iron;
     public GameObject dopey;
     
 
@@ -28,11 +31,24 @@ public class Move : MonoBehaviour
     Rigidbody2D r2d;
     CapsuleCollider2D mainCollider;
     Transform t;
-    public void getMoney(int money)
+    public void getIron(int money)
     {
-        score = score + money;
-        Debug.Log("you have : $" + score);
+        iron = iron + money;
+        Debug.Log("you have " + iron + " iron.");
     }
+
+    public void getGold(int money)
+    {
+        gold = gold + money;
+        Debug.Log("you have " + gold + " gold.");
+    }
+
+    public void getDiamonds(int money)
+    {
+        diamonds = diamonds + money;
+        Debug.Log("you have " + diamonds + " diamonds.");
+    }
+
     public void getHit()
     {
         health = health - 1;
@@ -142,6 +158,21 @@ public class Move : MonoBehaviour
     public int checkHealth()
     {
         return health;
+    }
+
+    public int checkDiamonds()
+    {
+        return diamonds;
+    }
+
+    public int checkGold()
+    {
+        return gold;
+    }
+
+    public int checkIron()
+    {
+        return iron;
     }
 
     public void getHit(int num)

@@ -15,7 +15,7 @@ public class diamondScript : MonoBehaviour
         
         if (co.name == "pickaxe")
         {
-            pick.GetComponent<Move>().getMoney(1);
+            pick.GetComponent<Move>().getDiamonds(1);
             Destroy(gameObject);
 
         }

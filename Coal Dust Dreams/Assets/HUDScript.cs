@@ -6,6 +6,7 @@ using TMPro;
 public class HUDScript : MonoBehaviour
 {
     public TMP_Text healthText;
+    public TMP_Text diamondText;
     public GameObject pick;
     
     // Start is called before the first frame update
@@ -13,6 +14,7 @@ public class HUDScript : MonoBehaviour
     {
         
         healthText.SetText("Health: " + pick.GetComponent<Move>().checkHealth());
+        diamondText.SetText("Diamonds: " + pick.GetComponent<Move>().checkDiamonds());
     }
 
     // Update is called once per frame
@@ -20,5 +22,6 @@ public class HUDScript : MonoBehaviour
     {
         
         healthText.SetText("Health: " + pick.GetComponent<Move>().checkHealth());
+        diamondText.SetText("Diamonds: " + pick.GetComponent<Move>().checkDiamonds());
     }
 }
