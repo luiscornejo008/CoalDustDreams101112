@@ -15,9 +15,10 @@ public class IronScript : MonoBehaviour
 
         if (co.name == "pickaxe")
         {
-            pick.GetComponent<Move>().getMoney(50);
+            pick.GetComponent<Move>().getIron(1);
             Destroy(gameObject);
 
         }
     }
 }
+
